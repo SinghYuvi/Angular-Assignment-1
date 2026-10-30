@@ -6,4 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './server.component.css',
   templateUrl: './server.component.html',
 })
-export class ServerComponent {}
+export class ServerComponent {
+  serverName: string = 'My Server';
+  serverStatus: string = 'Online';
+  serverId: number = 12345;
+  serverLocation: string = 'New York';
+}
