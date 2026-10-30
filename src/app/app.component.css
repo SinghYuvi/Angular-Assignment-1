@@ -1,0 +1,10 @@
+h1 {
+  text-align: center;
+  color: #1976d2;
+  font-size: 42px;
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px solid #1976d2;
+  border-radius: 10px;
+  background-color: #e3f2fd;
+}

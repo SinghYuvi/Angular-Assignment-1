@@ -1,0 +1,8 @@
+h2 {
+  color: #388e3c;
+  padding: 12px;
+  border-left: 6px solid #388e3c;
+  background-color: #e8f5e9;
+  border-radius: 5px;
+  width: fit-content;
+}
