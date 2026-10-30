@@ -6,10 +6,11 @@ import {
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './routing.module';
 import { AppComponent } from './app.component';
-import { ServerComponent } from './Server/server.component';
+import { WarningAlert } from './warning-alert/warning-alert';
+import { SuccessAlert } from './success-alert/success-alert';
 
 @NgModule({
-  declarations: [AppComponent, ServerComponent],
+  declarations: [AppComponent, WarningAlert, SuccessAlert],
   imports: [BrowserModule, AppRoutingModule],
   providers: [
     provideBrowserGlobalErrorListeners(),
